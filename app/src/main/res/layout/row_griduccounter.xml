@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="griduccounterRowModel" type="com.mirfansapplication.app.modules.androidlargefour.data.model.GriduccounterRowModel"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackuccounter"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" style="@style/groupStylewhite_4">
+        <TextView android:ellipsize="end" android:gravity="top|start"
+            android:id="@+id/txtUcCounter"
+            android:layout_gravity="bottom|center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_6pxv"
+            android:layout_marginEnd="@dimen/_12pxh"
+            android:layout_marginStart="@dimen/_12pxh"
+            android:layout_marginTop="@dimen/_10pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{griduccounterRowModel.txtUcCounter}"
+            style="@style/txtInterregular12" tools:text="@string/lbl_70_uc"/>
+        <ImageView android:id="@+id/imageImageThirty"
+            android:layout_gravity="top|center"
+            android:layout_height="@dimen/_42pxh"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_marginEnd="@dimen/_8pxh"
+            android:layout_marginStart="@dimen/_6pxh"
+            android:layout_width="@dimen/_47pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_image30"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_image30"/>
+    </FrameLayout>
+</layout>

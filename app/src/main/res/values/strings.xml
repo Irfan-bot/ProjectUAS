@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">m_irfan_s_application</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_selanjutnya">SELANJUTNYA</string>
+<string name="lbl_user_id">USER ID</string>
+<string name="lbl_lihat_semua">Lihat Semua</string>
+<string name="lbl_aov">AOV</string>
+<string name="lbl_70_uc">70 UC</string>
+<string name="lbl_genshin">GENSHIN</string>
+<string name="lbl_free_fire">FREE FIRE</string>
+<string name="lbl_1">1</string>
+<string name="lbl_500_uc">500 UC</string>
+<string name="lbl_2">2</string>
+<string name="lbl_3">3</string>
+<string name="lbl_700_uc">700 UC</string>
+<string name="lbl_valorant">VALORANT</string>
+<string name="lbl_kembali">Kembali</string>
+<string name="msg_pesanan_akan_se">Pesanan akan segera di Proses.</string>
+<string name="lbl_hago">HAGO</string>
+<string name="lbl_super_s">SUPER S</string>
+<string name="lbl_rp50_000">Rp50.000</string>
+<string name="lbl_minecraft">MINECRAFT</string>
+<string name="lbl_1000_uc">1000 UC</string>
+<string name="lbl_beli_sekarang">BELI SEKARANG</string>
+<string name="lbl_t_o_f">T.O.F</string>
+<string name="lbl_300_uc">300 UC</string>
+<string name="lbl_apex">APEX</string>
+<string name="lbl_fifa_23">FIFA 23</string>
+<string name="lbl_speed">SPEED</string>
+<string name="lbl_fortnite">FORTNITE</string>
+<string name="lbl_ml">ML</string>
+<string name="lbl_pubgm">PUBGM</string>
+<string name="msg_jumlah_pembayar">Jumlah Pembayaran</string>
+<string name="lbl_pc_game">PC Game</string>
+<string name="lbl_mobile_game">Mobile Game</string>
+<string name="lbl_stumble">STUMBLE</string>
+<string name="lbl_levelup_id">LEVELUP.ID</string>
+<string name="lbl_point_blank">POINT BLANK</string>
+<string name="lbl_roblox">ROBLOX</string>
+<string name="lbl_125_uc">125 UC</string>
+<string name="msg_pembayaran_berh">Pembayaran Berhasil</string>
+<string name="lbl_growtopia">GROWTOPIA</string>
+</resources>

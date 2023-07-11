@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="homeRowModel" type="com.mirfansapplication.app.modules.home.data.model.HomeRowModel"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnmobilegame"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleblue_50cornerRadius">
+        <LinearLayout android:id="@+id/linearRowmobilegame"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_12pxh"
+            android:layout_marginStart="@dimen/_12pxh"
+            android:layout_marginTop="@dimen/_13pxv"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtMobileGame"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5pxv"
+                android:layout_marginTop="@dimen/_2pxv"
+                android:layout_weight="0.52" android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@{homeRowModel.txtMobileGame}"
+                style="@style/txtMontserratsemibold15" tools:text="@string/lbl_mobile_game"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnLihatSemua"
+                android:layout_height="@dimen/_27pxv"
+                android:layout_marginStart="@dimen/_83pxh"
+                android:layout_width="@dimen/_95pxh"
+                android:paddingBottom="@dimen/_6pxv"
+                android:paddingEnd="@dimen/_17pxh"
+                android:paddingStart="@dimen/_12pxh"
+                android:paddingTop="@dimen/_6pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_lihat_semua"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded" tools:text="@string/lbl_lihat_semua"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearRowfifacounter"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_18pxv"
+            android:layout_marginEnd="@dimen/_12pxh"
+            android:layout_marginStart="@dimen/_12pxh"
+            android:layout_marginTop="@dimen/_23pxv"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <FrameLayout android:id="@+id/frameStackfifacounter"
+                android:layout_height="@dimen/_123pxv"
+                android:layout_marginBottom="@dimen/_2pxv"
+                android:layout_marginTop="@dimen/_2pxv" android:layout_width="@dimen/_86pxh">
+                <LinearLayout android:id="@+id/linearColumnfifacounter"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStylewhite_1">
+                    <TextView android:ellipsize="end"
+                        android:gravity="start"
+                        android:id="@+id/txtFifaCounter"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/_13pxv"
+                        android:layout_marginEnd="@dimen/_17pxh"
+                        android:layout_marginStart="@dimen/_17pxh"
+                        android:layout_marginTop="@dimen/_60pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{homeRowModel.txtFifaCounter}"
+                        style="@style/txtMontserratsemibold12" tools:text="@string/lbl_fifa_23"/>
+                </LinearLayout>
+                <ImageView android:id="@+id/imageImageFortyThree"
+                    android:layout_gravity="top|center"
+                    android:layout_height="@dimen/_80pxh"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_marginEnd="@dimen/_9pxh"
+                    android:layout_marginStart="@dimen/_7pxh"
+                    android:layout_width="@dimen/_70pxh"
+                    android:scaleType="fitXY"
+                    cornerRadius="@{@dimen/_10pxh}"
+                    imageRes="@{@drawable/img_image43}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_image43"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/frameStackml"
+                android:layout_height="@dimen/_125pxv"
+                android:layout_marginBottom="@dimen/_2pxv"
+                android:layout_marginStart="@dimen/_23pxh" android:layout_width="@dimen/_86pxh">
+                <LinearLayout android:id="@+id/linearColumnml"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStylewhite_2">
+                    <TextView android:ellipsize="end"
+                        android:gravity="start" android:id="@+id/txtML"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/_13pxv"
+                        android:layout_marginEnd="@dimen/_31pxh"
+                        android:layout_marginStart="@dimen/_31pxh"
+                        android:layout_marginTop="@dimen/_60pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{homeRowModel.txtML}"
+                        style="@style/txtMontserratsemibold12" tools:text="@string/lbl_ml"/>
+                </LinearLayout>
+                <ImageView android:id="@+id/imageImageTwo"
+                    android:layout_gravity="top|center"
+                    android:layout_height="@dimen/_81pxh"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_marginEnd="@dimen/_8pxh"
+                    android:layout_marginStart="@dimen/_9pxh"
+                    android:layout_width="@dimen/_69pxh"
+                    android:scaleType="fitXY"
+                    cornerRadius="@{@dimen/_10pxh}"
+                    imageRes="@{@drawable/img_image2}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_image2"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/frameStackpubgm"
+                android:layout_height="@dimen/_125pxv"
+                android:layout_marginStart="@dimen/_19pxh"
+                android:layout_marginTop="@dimen/_2pxv" android:layout_width="@dimen/_85pxh">
+                <LinearLayout android:id="@+id/linearColumnpubgm"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStylewhite_2">
+                    <TextView android:ellipsize="end"
+                        android:gravity="start"
+                        android:id="@+id/txtPUBGM"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/_15pxv"
+                        android:layout_marginEnd="@dimen/_17pxh"
+                        android:layout_marginStart="@dimen/_17pxh"
+                        android:layout_marginTop="@dimen/_58pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{homeRowModel.txtPUBGM}"
+                        style="@style/txtMontserratsemibold12" tools:text="@string/lbl_pubgm"/>
+                </LinearLayout>
+                <ImageView android:id="@+id/imageImageThree"
+                    android:layout_gravity="top|center"
+                    android:layout_height="@dimen/_81pxh"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_marginEnd="@dimen/_9pxh"
+                    android:layout_marginStart="@dimen/_7pxh"
+                    android:layout_width="@dimen/_69pxh"
+                    android:scaleType="fitXY"
+                    cornerRadius="@{@dimen/_10pxh}"
+                    imageRes="@{@drawable/img_image3}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_image3"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

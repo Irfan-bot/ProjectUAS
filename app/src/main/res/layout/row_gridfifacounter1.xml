@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="gridfifacounter1RowModel" type="com.mirfansapplication.app.modules.androidlargetwo.data.model.Gridfifacounter1RowModel"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackfifacounter"
+        android:layout_height="wrap_content" android:layout_width="match_parent">
+        <LinearLayout android:id="@+id/linearColumnfifacounter"
+            android:layout_gravity="bottom|start"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10pxv"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylewhite_1">
+            <TextView android:ellipsize="end" android:gravity="start"
+                android:id="@+id/txtFifaCounter"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_13pxv"
+                android:layout_marginEnd="@dimen/_17pxh"
+                android:layout_marginStart="@dimen/_17pxh"
+                android:layout_marginTop="@dimen/_60pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{gridfifacounter1RowModel.txtFifaCounter}"
+                style="@style/txtMontserratsemibold12" tools:text="@string/lbl_fifa_23"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/imageImageTwelve"
+            android:layout_gravity="top|start"
+            android:layout_height="@dimen/_80pxh"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_marginStart="@dimen/_8pxh"
+            android:layout_width="@dimen/_65pxh"
+            android:scaleType="fitXY" cornerRadius="@{@dimen/_10pxh}"
+            imageRes="@{@drawable/img_image12}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_image12"/>
+    </FrameLayout>
+</layout>
